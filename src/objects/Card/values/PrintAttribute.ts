@@ -48,6 +48,7 @@ type ScryfallPrintAttribute =
   | "themepack"
   | "thick"
   | "tourney"
-  | "wizardsplaynetwork";
+  | "wizardsplaynetwork"
+  | "scroll";
 
 export type ScryfallPromoType = ScryfallPrintAttribute | `${ScryfallExtendedFinish}`;
