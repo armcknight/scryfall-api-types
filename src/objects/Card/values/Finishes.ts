@@ -62,6 +62,10 @@ export enum ScryfallExtendedFinish {
    * @trivia The name was a reference to "step and repeat", a style of pattern used in printing banners.
    */
   StepAndCompleat = "stepandcompleat",
+  /**
+   * Another showcase style from Murders at Karlov Manor.
+   */
+  Magnified = "magnified",
 }
 
 export type ScryfallExtendedFinishLike = ScryfallExtendedFinish | `${ScryfallExtendedFinish}`;
